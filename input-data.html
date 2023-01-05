@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Input Data</title>
+</head>
+
+<body>
+    <h1>Input Data Siswa Baru</h1>
+    <hr>
+    <ul>
+        <li><a href="input-data.html">Input Data</a></li>
+        <li><a href="tampil-data.html">Lihat Data</a></li>
+    </ul>
+    <h4>Masukan Data Siswa</h4>
+    <form action="">
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Kelas</td>
+                <td>:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" id="islam" name="agama"><Label for="islam">ISLAM</Label>
+                    <input type="radio" id="kristen" name="agama"><Label for="kristen">KRISTEN</Label>
+                    <input type="radio" id="katholik" name="agama"><Label for="katholik">KATHOLIK</Label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <input type="radio" id="hindu" name="agama"><Label for="hindu">HINDU</Label>
+                    <input type="radio" id="budha" name="agama"><Label for="budha">BUDHA</Label>
+                    <input type="radio" id="konghucu" name="agama"><Label for="konghucu">KONGHUCU</Label>
+                </td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <select>
+                        <option value="">Pilih Jenis Kelamin</option>
+                        <option value="L">Laki-Laki</option>
+                        <option value="P">Perempuan</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><input type="checkbox" id="sure"><label for="sure">Apakah Data Sudah Benar?</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><button>Submit</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
